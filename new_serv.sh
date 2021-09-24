@@ -8,6 +8,8 @@ sudo apt install git #need get to install rest
 # Clone repo for scrits
 git clone https://github.com/j33pguy/new_kube_server.git
 
+cd new_kube_server
+
 # Install packages that do not need config
 ./install_packages.sh
 
