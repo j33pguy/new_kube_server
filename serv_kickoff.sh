@@ -3,4 +3,5 @@
 echo "Installing Github"
 sudo apt install git
 
-git clone https://github.com/j33pguy/new_kube_server/
+echo "Cloning into repo to get install scripts"
+git clone https://github.com/j33pguy/new_kube_server.git
