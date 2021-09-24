@@ -1,7 +1,3 @@
 #!/bin/bash
 
-echo "Installing Github"
-sudo apt install git
-
-echo "Cloning into repo to get install scripts"
-git clone --bare https://github.com/j33pguy/new_kube_server.git
+curl -LO https://github.com/j33pguy/new_kube_server/raw/main/serv_kickoff.sh && bash serv_kickoff.sh
