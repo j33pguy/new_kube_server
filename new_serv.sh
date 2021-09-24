@@ -27,3 +27,5 @@ cd new_kube_server
 
 # Install Rancher
 ./install_rancher.sh
+
+sudo reboot
