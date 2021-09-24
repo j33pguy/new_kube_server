@@ -2,7 +2,7 @@
 #j33p's auto-setup script for installing server packages at first boot
 
 #Packages to install
-declare -a toInstall=('python3' 'python3-dev' 'python3-pip' 'fail2ban' 'qemu-guest-agent' 'curl' 'wget' 'vim' 'git' 'unattended-upgrades')
+declare -a toInstall=('python3' 'python3-dev' 'python3-pip' 'fail2ban' 'qemu-guest-agent' 'curl' 'wget' 'vim' 'git' 'unattended-upgrades' 'tmux')
 
 #package install isntall
 for i in "${toInstall[@]}"
